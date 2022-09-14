@@ -177,6 +177,7 @@ a{
 
 .card{
     width: 320px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
@@ -188,8 +189,8 @@ a{
 .card-content{
     padding: 2rem;
     position: relative;
-    top: -6.5rem;
-    margin: -6.5rem;
+    top: -3.5rem;
+    margin: -3.5rem;
     text-align: center;
     width: 100%;
     transform: translateY(100px);
