@@ -1,0 +1,162 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+i{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+
+/* header section*/
+
+.main-container{
+    min-width: 95%;
+}
+
+header{
+    padding: 10px;
+}
+
+input{
+    min-width: 600px;
+    padding: 10px 20px;
+}
+
+.nav-container i{
+    font-size: 25px;
+    background-color: rgb(222, 207, 207);
+    padding: 8px 8px;
+    border-radius: 50%;
+}
+
+.logo-img img{
+    width: 10vh;
+    height: 10vh;
+
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mic{
+    padding-left: 20px;
+}
+
+
+.nav-iconset{
+    padding-left: 20px;
+    display:flex;
+    gap: 20px;
+
+}
+
+/* tags */
+
+.tags-list{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid gainsboro;
+
+    
+}
+
+.tag{
+    background-color: gray;
+    border-radius: 40%;
+    padding: 8px 10px;
+}
+
+.tag-dark{
+    background-color: rgb(49, 46, 46);
+    border-radius: 40%;
+    padding: 10px 20px;
+    color: white;
+}
+
+/* aside icons */
+
+aside{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.aside-icons{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aside-icons p{
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+/* main section */
+
+main{
+    min-height: 100vh;
+    background-color: rgb(204, 195, 195);
+    padding: 20px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+}
+
+.avatar-contents{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img img{
+   width: 100%;
+}
+
+.avatar-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-title{
+    font-size: 15px;
+}
+
+.card-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.channel-name{
+  font-size: 12px;
+}

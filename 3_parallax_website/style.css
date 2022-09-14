@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+}
+
+
+.first-section{
+    background-image: url('images/profile-3.jpeg');   
+    min-height : 100vh;
+    
+}
+
+.third-section{
+    background-image: url('images/profile-4.jpeg');
+    min-height: 100vh;
+}
+
+.fifth-section{
+    background-image: url('images/profile-2.jpeg');
+    min-height: 100vh;
+    
+}
+
+.first-section, .third-section, .fifth-section{
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.img-1, .img-2, .img-3{ 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;     
+}
+
+.text-bg{
+    
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    background-color:rgb(72, 68, 68);
+    color: bisque;
+    padding: 20px;
+}
+
+.dark-section{
+    min-height: 40vh;
+    padding: 50px;
+    background-color:rgb(64, 59, 59);
+    color: white;
+    text-align: center;
+}
+
+
+.light-section{
+    min-height: 40vh;
+    padding: 50px;
+    background-color: white;
+    color: rgb(64, 59, 59);
+    text-align: center;
+}
+
+@media(max-width: 450px){
+
+    .text-bg{
+        font-size: 15px;
+        letter-spacing: 2px;
+        padding: 5px;
+    }
+
+}
+

@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing :border-box;
+}
+
+body{
+  background-color: #ccc;
+}
+
+.content{
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+  padding : 20px;
+  box-shadow: 4px 3px 5px rgba(1,1,1,0.1);
+  border-radius: 10px;
+}
+
+.form-title{
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-title .small_font{
+  font-size: 18px;
+
+}
+
+.form-content{
+  margin-top: 20px;
+  display:grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+
+}
+
+.form-fields{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fields-address{
+  grid-column: 1/ span 2;
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-fields-address textarea{
+  width: 100%;
+}
+
+.form-fields label{
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+input, select, textarea{
+  padding: 6px 10px;
+  border : 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.form-submit{
+  display : flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.form-submit button{
+  background-color: red;
+  color: white;
+  border : 2px solid transparent;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: 0.3s ease-in;
+}
+
+.form-submit button:hover{
+  background-color: #ccc;
+  border : 2px solid red;
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+input:focus{
+  outline-color :red;
+}
+
+textarea:focus{
+  outline-color :red;
+}
+
+@media (max-width:460px){
+  .form-fields-address{
+    grid-column: 1/ span 1;
+  }
+  .content{
+    margin: 10px
+  }
+}
